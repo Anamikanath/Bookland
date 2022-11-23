@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.review{
+    font-family: 'Poppins', sans-serif;
+}
+.aaa
+{
+    font-size: .8cm;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    align-items: center;
+    color: aliceblue;
+
+}
+.aab
+{
+    color:aqua;
+}
+.review{
+    align-items: center;
+    height:98vh;
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.board{
+    max-width: 987px;
+    width: 100%;
+    background-color: rgb(16, 30, 73);
+    text-align: center;
+    border-radius: 8px;
+    padding: 4em 0;
+}
+.swiper {
+    width: 600px;
+    height:auto;
+  }
+  .swiper .swiper-slide .flex{
+    margin: 3em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.swiper .swiper-slide .comments{
+    background-color: #EBEBFB;
+    padding: 1.5em 2em;
+    width: 50%;
+    border-radius: 5px;
+    font-size: .9em;
+    position: relative;
+}
+
+.swiper .swiper-slide .comments::after{
+    content: '';
+    position: absolute;
+    bottom: -19px;
+    left: 45%;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #EBEBFB;
+    z-index: -99;
+}
+
+
+.swiper .profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.swiper .profile img{
+    width: 40%;
+    border-radius: 50%;
+    border: 5px solid palevioletred;
+    margin: 10px 0;
+}
+.swiper .profile > a{
+    text-decoration: none;
+    color:#EBEBFB;
+}

@@ -1,0 +1,110 @@
+body{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+.navbarheader{
+    background-color: #778899;
+    margin:auto;
+
+}
+#ii
+{
+  height: 0px;
+  
+}
+#f1
+{
+    color: aliceblue;
+    font-size: 48px;
+    font-display: block;
+    font-style:oblique;
+    text-shadow: 4px 4px 4px rgb(79, 20, 189);
+    padding-left: 15%;
+    padding-top: 10%;   
+}
+#f2{
+    font-style: italic;
+    font-weight: bolder;
+    display: grid;
+    margin-left: 17%; 
+}
+#p1
+{
+    margin-top: -1%;
+}
+#mySidenav a:hover{
+  font:bolder;
+  }
+  .sidenav{
+      text-align: right;
+      margin: auto;
+      margin-right: 1%;
+      font-variant: small-caps;
+      font-weight: bolder;
+      font-size: .5cm;
+  }
+  
+.topnav {
+    background-color: rgb(13, 4, 74);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .topnav a {
+    float:center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+    font-style: italic;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(214, 20, 20);
+    
+  }
+
+  #abc0
+  {
+color:rgb(244, 255, 42);
+font-weight: bold;
+font-variant: small-caps;
+font-size: 20px;
+font-style: oblique;
+text-decoration:solid;
+text-transform: capitalize;
+text-shadow: 4px 4px 4px rgb(245, 32, 32);
+
+  }
+  #abc1
+  {
+color:black;
+font-weight: bold;
+font-variant: small-caps;
+font-size: 20px;
+font-style: oblique;
+text-decoration:solid;
+text-transform: capitalize;
+text-shadow: 4px 4px 4px rgb(245, 32, 32);
+
+  }
+  
+  .button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #5b24d1;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    
+  }
